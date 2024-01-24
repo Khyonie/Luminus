@@ -1,0 +1,10 @@
+[project]
+name = "Luminus"
+libraries = ["lib/"]
+
+[task]
+
+[task.main]
+source = "src/"
+output = ["{NAME}.jar"]
+input = ["META-INF/"]
